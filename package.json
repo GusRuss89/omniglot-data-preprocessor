@@ -1,0 +1,24 @@
+{
+  "name": "omniglot-data",
+  "version": "1.0.0",
+  "description": "Turn the Omniglot dataset into a single large image",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "Angus Russell",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0",
+    "knuth-shuffle": "^1.0.1"
+  }
+}
