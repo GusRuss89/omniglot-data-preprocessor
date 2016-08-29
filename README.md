@@ -2,7 +2,7 @@
 
 I wanted to use the [https://github.com/brendenlake/omniglot](Omniglot dataset) in a JavaScript neural net, so needed to get the files into a more readable form.
 
-In the output folder you'll find images_background.png and images_evaluation.png. These contain all the images, in random order, from the corresponding folders in the omniglot. They're also scaled down to 28x28px each and the colours are inverted.
+In the output folder you'll find images_background.png and images_evaluation.png. These contain all the images, in random order, 20 per row, from the corresponding folders in the omniglot set. They're also scaled down to 28x28px each and the colours are inverted.
 
 Each image in the output folder also has a corresponding JSON file, which is an array of the character label and alphabet in the same order as the image. It looks like this:
 
