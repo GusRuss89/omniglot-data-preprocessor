@@ -14,3 +14,6 @@ Each image in the output folder also has a corresponding JSON file, which is an 
 If you want to actually run the pre-processor yourself, you'll first need to [https://github.com/brendenlake/omniglot/tree/master/python](get the zipped data from the Omniglot repo) and put it in a new folder in the root called `data`. You can then get started with `npm install` and then `npm start` or `electron .` to run.
 
 The pre-processor can only do one main folder at a time (E.g. images_background or images_evaluation). You'll find a variable called `dataDir` near the top of `app/app.js` where you can set that.
+
+##Code Quality##
+Is shit. You may get some errors. Sorry about that!
